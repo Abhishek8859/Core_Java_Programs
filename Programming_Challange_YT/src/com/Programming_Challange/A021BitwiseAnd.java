@@ -1,0 +1,20 @@
+package com.Programming_Challange;
+
+import java.util.Scanner;
+
+//Create a program that shows bitwise AND of two numbers.
+
+public class A021BitwiseAnd {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Showing Bitwise AND Operator...");
+		System.out.println("Please enter first number: ");
+		int first = sc.nextInt();
+		System.out.println("Please enter second number: ");
+		int second = sc.nextInt();
+		int result = first & second;
+		System.out.println("Result is: " + result);
+
+	}
+
+}
