@@ -1,5 +1,4 @@
 package com.Programming_Challange;
-
 import java.util.Scanner;
 
 public class A040LoopPatterns {
